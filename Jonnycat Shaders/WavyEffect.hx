@@ -10,7 +10,8 @@ import flixel.math.FlxPoint;
 using StringTools;
 typedef ShaderEffect = {
   var shader:Dynamic;
-}
+} 
+  
 class WavyEffect 
 { 
 public var shader(default, null):WavyShader = new WavyShader(); 
