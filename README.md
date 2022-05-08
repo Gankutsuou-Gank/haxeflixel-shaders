@@ -1,5 +1,5 @@
 # haxeflixel-shader-codes
-good shader codes
+These Shaders are ported so.There is credit in the code its self.
  
 Credits: 
 
