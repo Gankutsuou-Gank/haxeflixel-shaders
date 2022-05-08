@@ -7,8 +7,8 @@ public function new()
 {  
   shader.data.iTime.value = [0];
   shader.data.iResolution.value = [Lib.current.stage.stageWidth,Lib.current.stage.stageHeight]; 
-  shader.data.frequency.value = [10.1];  
-  shader.data.amplitude.value = [0.47]; 
+  shader.data.frequency.value = [8.0];  
+  shader.data.amplitude.value = [0.05]; 
 } 
 
 public function update(elapsed:Float){
