@@ -1,4 +1,5 @@
-//1st shader port i made me jonnycat ported this shader https://www.shadertoy.com/view/4dSXRR   
+//1st shader port i made me jonnycat ported this shader https://www.shadertoy.com/view/4dSXRR  
+package; 
 import flixel.system.FlxAssets.FlxShader;
 import openfl.display.BitmapData;
 import openfl.display.ShaderInput;
@@ -56,7 +57,7 @@ class WavyShader extends FlxShader
       
       vec2 interpCoord = mix(newCoord, texCoord, dist);
     
-      gl_FragColor = texture2D(bitmap,interpCoord);
+      gl_FragColor = flixel_texture2D(bitmap,interpCoord);
   }
   ')
   public function new()
