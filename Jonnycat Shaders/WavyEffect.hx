@@ -1,4 +1,16 @@
-//1st shader port i made me jonnycat ported this shader https://www.shadertoy.com/view/4dSXRR 
+//1st shader port i made me jonnycat ported this shader https://www.shadertoy.com/view/4dSXRR   
+import flixel.system.FlxAssets.FlxShader;
+import openfl.display.BitmapData;
+import openfl.display.ShaderInput;
+import openfl.utils.Assets;
+import flixel.FlxG;
+import openfl.Lib;
+import flixel.math.FlxPoint;
+
+using StringTools;
+typedef ShaderEffect = {
+  var shader:Dynamic;
+}
 class WavyEffect 
 { 
 public var shader(default, null):WavyShader = new WavyShader(); 
