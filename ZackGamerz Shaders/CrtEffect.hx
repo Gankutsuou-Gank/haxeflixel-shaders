@@ -3,6 +3,17 @@ package;
 import openfl.filters.ShaderFilter;
 import flixel.FlxG;
 import flixel.system.FlxAssets.FlxShader;
+import openfl.display.BitmapData;
+import openfl.display.ShaderInput;
+import openfl.utils.Assets;
+import flixel.FlxG;
+import openfl.Lib;
+import flixel.math.FlxPoint;
+
+using StringTools;
+typedef ShaderEffect = {
+  var shader:Dynamic;
+} 
 
 // Original shader in question: https://www.shadertoy.com/view/WdjfDy
 // Ported by ZackDroid, now compatible with haxeflixel.
@@ -22,11 +33,11 @@ class CrtEffect {
     }
 
     public function getFilter():ShaderFilter {
-        return new ShaderFilter(shader);
+     return new ShaderFilter(shader);
     }
 
 	public function set_curved(value:Bool):Bool {
-		curved = value;
+	curved = value;
         shader.curved.value = [value];
         return value;
 	}
