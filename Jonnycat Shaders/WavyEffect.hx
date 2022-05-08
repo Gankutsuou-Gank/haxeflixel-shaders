@@ -18,21 +18,21 @@ public var shader(default, null):WavyShader = new WavyShader();
 
 public function new()
 {  
-  shader.data.iTime.value = [0];
-  shader.data.iResolution.value = [Lib.current.stage.stageWidth,Lib.current.stage.stageHeight]; 
-  shader.data.frequency.value = [8.0];  
+  shader.iTime.value = [0];
+  shader.iResolution.value = [Lib.current.stage.stageWidth,Lib.current.stage.stageHeight]; 
+  shader.frequency.value = [8.0];  
   shader.data.amplitude.value = [0.05]; 
 } 
 
 public function update(elapsed:Float){
-    shader.data.iTime.value[0] += elapsed;
-    shader.data.iResolution.value = [Lib.current.stage.stageWidth,Lib.current.stage.stageHeight]; 
+    shader.iTime.value[0] += elapsed;
+    shader.iResolution.value = [Lib.current.stage.stageWidth,Lib.current.stage.stageHeight]; 
 }  
 public function setfrequency(chickennuggets:Float){
-  shader.data.frequency.value = [chickennuggets];
+  shader.frequency.value = [chickennuggets];
 }  
 public function setamplitude(goof:Float){
-  shader.data.amplitude.value = [goof];
+  shader.amplitude.value = [goof];
 } 
 }
 class WavyShader extends FlxShader
