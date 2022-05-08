@@ -2,6 +2,17 @@ package;
 
 import flixel.FlxG;
 import flixel.system.FlxAssets.FlxShader;
+import openfl.display.BitmapData;
+import openfl.display.ShaderInput;
+import openfl.utils.Assets;
+import flixel.FlxG;
+import openfl.Lib;
+import flixel.math.FlxPoint;
+
+using StringTools;
+typedef ShaderEffect = {
+  var shader:Dynamic;
+} 
 
 /**
  * shader by hornet, thanks
