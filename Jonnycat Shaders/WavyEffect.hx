@@ -47,7 +47,7 @@ class SurfShader extends FlxShader
     
     vec2 interpCoord = mix(newCoord, texCoord, dist);
 	
-	  gl_fragColor = flixel_texture2D(bitmap, interpCoord);
+    gl_fragColor = flixel_texture2D(bitmap, interpCoord);
 }
   ')
   public function new()
