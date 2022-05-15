@@ -20,7 +20,7 @@ public var shader(default, null):SurfShader = new SurfShader();
 public function new()
 {  
   shader.iTime.value = [0];
-  shader.data.amplitude.value = [0.10]; 
+  shader.amplitude.value = [0.10]; 
 } 
 
 public function update(elapsed:Float){
