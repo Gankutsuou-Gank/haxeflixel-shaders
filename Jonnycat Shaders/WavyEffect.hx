@@ -40,7 +40,8 @@ class SurfShader extends FlxShader
 {
     vec2 texCoord = openfl_TextureCoordv;
     
-    vec2 pulse = sin(iTime + texCoord);
+    vec2 pulse = sin(iTime + texCoord); 
+
     float dist = 2.0 * length(texCoord.y - 0.5);
     
     vec2 newCoord = texCoord + amplitude * vec2(0.0, pulse.x); // y-axis only; 
