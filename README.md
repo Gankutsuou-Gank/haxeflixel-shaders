@@ -1,4 +1,4 @@
-# haxeflixel-shader-codes
+# haxeflixel-shaders
 These Shaders are ported.There is credit in the code its self.
  
 Credits: 
