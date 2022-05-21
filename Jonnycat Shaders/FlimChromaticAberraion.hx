@@ -1,24 +1,4 @@
  
-
-
-
-
-class FilmChromaticAberrationEffect 
-{ 
-
-
-
-
-
-
-
-
-
-
-    
-}
-
-
 // da code https://www.shadertoy.com/view/llK3RR
 class FilmChromaticAberrationShader extends FlxShader
 { 
